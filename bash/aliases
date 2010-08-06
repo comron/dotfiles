@@ -1,0 +1,10 @@
+alias ls="ls -G"
+alias cjrepl='java -cp clojure.jar clojure.lang.Repl'
+alias cj='java -cp clojure.jar'
+alias svndiff='svn diff --diff-cmd diff | mate'
+
+
+alias migrate='rake db:migrate db:test:clone'
+
+function p { cd $PROJECTS_PATH/$1; }
+function w { cd $WORK_PATH/$1; }

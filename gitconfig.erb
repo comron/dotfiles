@@ -1,0 +1,23 @@
+[user]
+	name = Comron Sattari
+	email = comron@gmail.com
+
+[alias]
+  co = checkout
+  st = status
+  ci = commit
+ 
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[core]
+  excludefile = <%= ENV['HOME'] %>/.gitignore
+  editor = mvim
+
+[apply]
+  whitespce = nowarn
+
+[format]
+  pretty = %C(yellow)%h%Creset %s %C(red)(%cr)%Creset
