@@ -14,7 +14,7 @@
 
 [core]
   excludefile = <%= ENV['HOME'] %>/.gitignore
-  editor = mvim
+  editor = <%= `which vim` %>
 
 [apply]
   whitespce = nowarn
