@@ -33,8 +33,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-colorscheme vividchalk
-
 set autoindent
 set smartindent
 

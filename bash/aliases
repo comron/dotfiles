@@ -1,5 +1,5 @@
 alias ls="ls -G"
-alias cjrepl='java -cp clojure.jar clojure.lang.Repl'
+alias cjrepl='java -cp clojure.jar clojure.main'
 alias cj='java -cp clojure.jar'
 alias svndiff='svn diff --diff-cmd diff | mate'
 
