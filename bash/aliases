@@ -8,3 +8,7 @@ alias migrate='rake db:migrate db:test:clone'
 
 function p { cd $PROJECTS_PATH/$1; }
 function w { cd $WORK_PATH/$1; }
+
+
+alias svnstash="svn diff > .stash; svn revert -R ."
+alias svnpop="patch -p0 -i .stash; rm .stash"
