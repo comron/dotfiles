@@ -9,11 +9,11 @@ export RUBY_HEAP_SLOTS_INCREMENT=250000
 export RUBY_GC_MALLOC_LIMIT=50000000
 export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
 
-export GOROOT=/usr/local/Cellar/go/r59
+export GOROOT=/usr/local/Cellar/go/1
 
 export AQUATERM_REPORT_TIMING=1
 export AQUATERM_PATH=/Applications/AquaTerm.app
 export GNUTERMAPP=/Applications/AquaTerm.app
 export GNUTERM=aqua
 
-NGINX_VERSION='1.0.14'
+export NGINX_VERSION='1.0.14'
