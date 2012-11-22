@@ -5,3 +5,5 @@
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
