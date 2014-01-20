@@ -3,6 +3,10 @@ require 'erb'
 
 desc "install the dot files into user's home directory"
 task :install do
+  
+  system %Q{mkdir -p ~/.vim/bundle}
+  system %Q{git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle}
+  
   replace_all = false
   Dir['*'].each do |file|
     next if %w[Rakefile README.rdoc LICENSE].include? file
@@ -30,6 +34,8 @@ task :install do
       link_file(file)
     end
   end
+  
+  system %Q{vim +BundleInstall +qall}
 end
 
 def replace_file(file)
