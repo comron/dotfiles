@@ -16,3 +16,7 @@ export GNUTERMAPP=/Applications/AquaTerm.app
 export GNUTERM=aqua
 
 export NGINX_VERSION='1.0.14'
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
