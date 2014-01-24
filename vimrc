@@ -166,3 +166,5 @@ let g:syntastic_enable_signs=1
 let g:syntastic_cpp_check_header = 1
 " let g:syntastic_cpp_remove_include_errors = 1
 let g:syntastic_cpp_checkers=['ycm']
+
+autocmd VimEnter * if !argc() | NERDTree | endif
